@@ -1,8 +1,8 @@
 ### Biggie
 
-![Overview] (https://github-readme-stats.vercel.app/api?username=biggiemedium)
+(![OverView](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=vue))
 
-![](https://komarev.com/ghpvc/?username=your-github-biggiemedium&card_width=100&title_color=CC88BB&line_height=27&text_color=885566&bg_color=FFFFFF)
+![](https://komarev.com/ghpvc/?username=your-github-biggiemedium)
 
 <!--
 **biggiemedium/biggiemedium** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
