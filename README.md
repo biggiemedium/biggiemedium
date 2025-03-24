@@ -1,6 +1,7 @@
 ### Biggie
 
-(![OverView](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=vue))
+![OverView](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=vue)
+
 
 ![](https://komarev.com/ghpvc/?username=your-github-biggiemedium)
 
