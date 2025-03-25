@@ -1,7 +1,6 @@
 ### Biggie
 
-![OverView](https://github-readme-stats.vercel.app/api?username=biggiemedium&show_icons=true&theme=vue&count_private=true)
-<br/>
+![OverView](https://github-readme-stats.vercel.app/api?username=biggiemedium&show_icons=true&theme=vue&count_private=true&include_all_commits=true&line_height=24.5)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=biggiemedium&theme=vue&langs_count=8&layout=compact&size_weight=0.5&count_weight=0.5)
 
 
