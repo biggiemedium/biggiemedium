@@ -2,7 +2,7 @@
 
 ![OverView](https://github-readme-stats.vercel.app/api?username=biggiemedium&show_icons=true&theme=vue&count_private=true)
 <br/>
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=biggiemedium&theme=vue&langs_count=8&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=biggiemedium&theme=vue&langs_count=8&layout=compact))](https://github.com/anuraghazra/github-readme-stats)
 
 ![](https://komarev.com/ghpvc/?username=your-github-biggiemedium)
 
