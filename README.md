@@ -1,7 +1,7 @@
 <div align="center">
 <!--  <h1>Biggie</h1> -->
   
-  <p>Second year university student and coding hobbiest</p>
+  <p>Third year university student and coding hobbiest</p>
   
   <h3>Languages & Tools</h3>
   <p>
