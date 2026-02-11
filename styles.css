@@ -1,0 +1,272 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Technical Capabilities Section (Reference styling - subtle and refined) */
+.technical-capabilities {
+    padding: 5rem 0;
+    background: white;
+}
+
+.technical-capabilities h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.tech-item {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    background: #f8f9fa;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e9ecef;
+}
+
+.tech-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.tech-icon {
+    margin-bottom: 1.5rem;
+    height: 45px; /* Consistent icon size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-icon img {
+    height: 45px;
+    width: auto;
+}
+
+.tech-item h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.tech-item p {
+    color: #6c757d;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Development Process Section (IMPROVED - subtle and refined like tech capabilities) */
+.development-process {
+    padding: 5rem 0;
+    background: white;
+}
+
+.development-process h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+
+/* Desktop: Horizontal timeline flow */
+.process-timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    gap: 2rem;
+}
+
+/* Timeline connector line for desktop */
+.process-timeline::before {
+    content: '';
+    position: absolute;
+    top: 22px;
+    left: 45px;
+    right: 45px;
+    height: 1px;
+    background: #e9ecef;
+    z-index: 1;
+}
+
+.process-step {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+/* FIXED: Reduced icon size to match tech icons (45px) with subtle styling */
+.process-icon {
+    width: 45px;
+    height: 45px;
+    background: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: #6c757d;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* Subtle hover effect matching tech capabilities */
+.process-step:hover .process-icon {
+    background: #667eea;
+    border-color: #667eea;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.process-content h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.process-content p {
+    color: #6c757d;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+    
+    header p {
+        font-size: 1.1rem;
+    }
+    
+    .technical-capabilities h2,
+    .development-process h2 {
+        font-size: 2rem;
+    }
+    
+    .tech-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    /* Mobile: Stack process steps vertically */
+    .process-timeline {
+        flex-direction: column;
+        gap: 2rem;
+        max-width: 400px;
+    }
+    
+    /* Remove horizontal timeline connector on mobile */
+    .process-timeline::before {
+        display: none;
+    }
+    
+    /* Add vertical timeline connector for mobile */
+    .process-timeline::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 67px;
+        bottom: 67px;
+        width: 1px;
+        background: #e9ecef;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 3rem 0;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .technical-capabilities,
+    .development-process {
+        padding: 3rem 0;
+    }
+    
+    .tech-item {
+        padding: 1.5rem 1rem;
+    }
+    
+    .process-timeline {
+        max-width: 320px;
+        gap: 1.5rem;
+    }
+    
+    .process-content h3 {
+        font-size: 1.2rem;
+    }
+    
+    .process-content p {
+        font-size: 0.9rem;
+    }
+}
